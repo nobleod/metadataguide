@@ -147,14 +147,14 @@
 
     <!-- Blurb -->
     <div class="textbox-wrapper">
-      <label for="input280" class="input-label">Blurb</label>
-      <textarea id="input280" rows="7" placeholder="Give a clear and compelling summary..."></textarea>
+      <label for="input257" class="input-label">Blurb</label>
+      <textarea id="input257" rows="7" placeholder="Give a clear and compelling summary..."></textarea>
       <div class="progress-bar-container">
-        <div id="progressBar280" class="progress-bar"></div>
+        <div id="progressBar257" class="progress-bar"></div>
       </div>
-      <div id="charCount280" class="char-count">0 / 280</div>
+      <div id="charCount257" class="char-count">0 / 257</div>
       <div style="text-align: right;">
-        <button onclick="copyText('input280', this)" class="copy-btn">Copy Blurb</button>
+        <button onclick="copyText('input257', this)" class="copy-btn">Copy Blurb</button>
       </div>
     </div>
 
@@ -188,7 +188,7 @@
     }
 
     setupCounter("input55", "charCount55", "progressBar55", 55);
-    setupCounter("input280", "charCount280", "progressBar280", 280);
+    setupCounter("input257", "charCount257", "progressBar257", 257);
 
     function copyText(inputId, button) {
       const input = document.getElementById(inputId);
@@ -234,7 +234,7 @@
       return allKeywords.slice(0, 8); // Limit to top 8
     }
 
-    const blurbInput = document.getElementById("input280");
+    const blurbInput = document.getElementById("input257");
     const keywordBox = document.getElementById("keywordBox");
 
     blurbInput.addEventListener("input", () => {
